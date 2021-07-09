@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info :first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info :not(:first-child)::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: rgb(202, 197, 197);
+  margin-right: 10px;
+}

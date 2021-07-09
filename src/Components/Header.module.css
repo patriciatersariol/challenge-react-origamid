@@ -1,0 +1,33 @@
+.header {
+  margin-bottom: 2rem;
+}
+
+.header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header ul li {
+  margin-right: 1rem;
+}
+
+.link {
+  display: block;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(218, 218, 218);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link:hover {
+  background-color: rgb(187, 182, 182);
+}
+
+.active {
+  background-color: rgb(167, 161, 161);
+}

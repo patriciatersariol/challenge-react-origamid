@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.container img {
+  margin-bottom: 2rem;
+}
+
+.price {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(139, 228, 50);
+  color: rgb(7, 83, 7);
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
